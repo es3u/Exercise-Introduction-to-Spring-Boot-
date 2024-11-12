@@ -43,7 +43,11 @@ public class Exercise {
             return arr;
         }
 
-
+    String[] strArr = {"Essa","Obaid" , "ALmutiri" ,};
+    @GetMapping("/strArr")
+    public String[] getStrArr() {
+        return strArr;
+    }
 
 
 
